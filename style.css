@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Caveat+Brush');
+
+body {
+font-family: Montserrat;
+}
+
+* {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+  height: auto;
+}
+
+
+.navbar li {
+    display: inline;
+
+
+
+  }
+
+.navbar a {
+  display: inline-block;
+  color: #9DA5A6;
+
+
+}
+
+#name {
+  font-family: Caveat Brush;
+  font-size: 22px;
+  color: #7574A7;
+  letter-spacing: 2px;
+  vertical-align: bottom;
+  margin-left: 8px;
+  margin-right: 8px;
+
+
+}
+
+#links {
+  font-size: 12px;
+  letter-spacing: 2px;
+
+}
+
+#links:hover {
+  color: #E3E3E3;
+  transition-duration: 1s;
+
+}
+
+
+.content-about, .content-contact {
+  display: none;
+  height: 300px;
+
+}
+
+.portfolio {
+  width: 100%;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+img {
+
+margin-top: 4px;
+
+}
+
+.fa {
+  font-size: 25px;
+  margin: 10px;
+  color: black;
+}
